@@ -1,0 +1,436 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Poligon</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="header">
+		<div class="header__shadow">
+			<div class="conteiner">
+				<div class="header__head">
+					<div class="header__head-row">
+						<div class="header__logo">
+							<div class="heaader__logo-row">
+								<div class="header__image">
+									<img src="/img/header/01.svg" alt="">
+								</div>
+								<div class="header__title-first">
+									<div class="header__title">Полигон</div>
+									<div class="header__text">студия 3D-печати</div>
+								</div>
+							</div>
+						</div>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<div class="header__menu">
+							<div class="header__menu-row">
+								<div class="header__link-div"><a href="#" class="header__link">Главная</a></div>
+								<div class="header__link-div"><a href="#" class="header__link">3D-Печать</a></div>
+								<div class="header__link-div"><a href="#" class="header__link">3D-Сканирование</a></div>
+								<div class="header__link-div"><a href="#" class="header__link">О компании</a></div>
+								<div class="header__link-div"><a href="#" class="header__link">Блог</a></div>
+								<div class="header__link-div"><a href="#" class="header__link">Контакты</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="conteiner">
+			<div class="header__row">
+				<div class="header__biglogo biglogo">
+					<div class="biglogo__row">
+						<div class="biglogo__logo"><img src="/img/header/02.svg" alt=""></div>
+						<div class="biglogo__body">
+							<div class="biglogo__title">3D печать на заказ в Уфе</div>
+							<div class="biglogo__text">Изготовление деталей из пластика 3D - Сканирование</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__info">
+					<div class="header__column">
+						<div class="header__phone">8 (347) 123-45-57</div>
+					</div>
+					<div class="header__column">
+						<div class="header__maps">г. Уфа, Интернациональная, 123</div>
+					</div>
+					<div class="header__column">
+						<div class="header__mail">example@email.com</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__write write">
+				<div class="write__row">
+					<div class="write__title">уЗНАЙТЕ СТОИМОСТЬ ПЕЧАТИ СВОЕЙ ДЕТАЛИ</div>
+					<div class="write__btn"><a class="write__link" href="#">Написать НАМ</a></div>
+				</div>
+			</div>
+			<div class="header__footer">
+				<div class="header__footerow">
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Автозапчасти</a></div>
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Шестерни</a></div>
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Макеты зданий</a></div>
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Прототипы</a></div>
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Формы для литья</a></div>
+					<div class="header__footer-column"><a class="header__footerlink" href="#">Прочее</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="price">
+		<div class="conteiner">
+			<div class="price__title title">Стоимость печати</div>
+			<div class="price__text">
+				<p>Стоимость печати невозможно оценить в граммах пластика или по размеру детали.</p>
+				<p>Воспользуйтесь калькулятором для того чтобы получить представление о формировании стоимости печати
+					детали.</p>
+			</div>
+			<div class="price-calc__calc">
+				<div class="price-calc__btn">Открыть Калькулятор</div>
+				<div class="price-calc__column">
+					<div class="price-calc__exit"></div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/01.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Модель для расчета</div>
+							<select class="price__select">
+								<option>Бэтмен</option>
+								<option>Пункт 2</option>
+							</select>
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/02.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Материал детали</div>
+							<select class="price__select">
+								<option>ABS</option>
+								<option>NYLON</option>
+							</select>
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/03.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Толщина слоя печати
+								<div class="price__range">0.2 mm</div>
+							</div>
+							<input type="range" min="100" max="200" step="2">
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/04.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Размер объекта</div>
+							<input type="range" min="100" max="200" step="2">
+						</div>
+					</div>
+					<div class="price__btn">Расчитать</div>
+					<div class="price__price">
+						<div class="price__cost">Стоимость
+							<output class="price__result" name="result">0</output>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price__row">
+				<div class="price__option">
+					<div class="price__column">
+						<div class="price__columnrow">
+							<div class="price__modelimg"><img src="/img/price/01.png" alt="#"></div>
+							<div class="price__model">
+								<div class="model__title">Модель для расчета</div>
+								<select class="price__select">
+									<option>Бэтмен</option>
+									<option>Пункт 2</option>
+								</select>
+							</div>
+						</div>
+						<div class="price__columnrow">
+							<div class="price__modelimg"><img src="/img/price/02.png" alt="#"></div>
+							<div class="price__model">
+								<div class="model__title">Материал детали</div>
+								<span class="price__span">ABS</span>
+								<div class="price__switch-btn price__switch-on">
+									<span class="price__span">NYLON</span>
+									<input type="checkbox" name="namecheckbox">
+
+								</div>
+
+							</div>
+						</div>
+						<div class="price__columnrow">
+							<div class="price__modelimg"><img src="/img/price/03.png" alt="#"></div>
+							<div class="price__model">
+								<div class="model__title">Толщина слоя печати
+									<div class="price__range">0.2 mm</div>
+								</div>
+								<input type="range" min="100" max="200" step="2">
+							</div>
+						</div>
+						<div class="price__columnrow">
+							<div class="price__modelimg"><img src="/img/price/04.png" alt="#"></div>
+							<div class="price__model">
+								<div class="model__title">Размер объекта</div>
+								<input type="range" min="100" max="200" step="2">
+							</div>
+						</div>
+						<div class="price__btn">Расчитать</div>
+						<div class="price__price">
+							<div class="price__cost">Стоимость
+								<output class="price__result" name="result">0</output>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="price__img"><img src="/img/price/05.png" alt="#"></div>
+			</div>
+		</div>
+	</div>
+	<div class="how">
+		<div class="conteiner">
+			<div class="how__title title">Как мы работаем</div>
+			<div class="how__row">
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Вы отправляете нам образец детали или ТЗ на разработку</div>
+					</div>
+				</div>
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Расчитываем и согласовываем стоимость готового изделия </div>
+					</div>
+				</div>
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Вы оплачиваете 50% стоимости</div>
+					</div>
+				</div>
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Мы изготавливаем деталь</div>
+					</div>
+				</div>
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Вы оплачиваете остаток от стоимости изделия</div>
+					</div>
+				</div>
+				<div class="how__column">
+					<div class="how__body">
+						<div class="how__text">Мы передаем изделие в службу доставки вместе с закрывающими документами</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="feedback">
+		<div class="conteiner">
+			<div class="feedback__title title">Мы перезвоним Вам в течение 15 минут</div>
+			<form class="feedback__form" action="#">
+				<div class="feedback__row">
+					<div class="feedback__name"><input class="feedback__name-form input" placeholder="Имя" type="text"
+							name="name" id=""></div>
+					<div class="feedback__phone"><input class="feedback__phone-form input" placeholder="Телефон" type="tel"
+							name="phone" id=""></div>
+					<div class="feedback__btn"><button class="feedback__btn-form btn" type="submit">Отправить</button></div>
+				</div>
+				<div class="feedback__column">
+					<div class="feedback__input">
+						<input checked class="feedback__checkbox" type="checkbox" name="model" id="img">
+						<label class="feedback__lable" for="img">хочу отправить модель для печати</label>
+					</div>
+					<div class="feedback__img">
+						<input class="feedback__file" type="file" id="file">
+						<label class="feedback__file-wrapper" for="file">
+							<div class="feedback__file-button">Выбрать</div>
+							<div class="feedback__file-fake">Файл не выбран</div>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="make">
+		<div class="conteiner">
+			<div class="make__title title">Мы можем изготовить</div>
+			<div class="make__row">
+				<div class="make__column">
+					<div class="make__img"><img src="/img/make/01.png" alt=""></div>
+					<div class="make__text">Рыночные изделия с неоправданно высокой ценой</div>
+				</div>
+				<div class="make__column">
+					<div class="make__img"><img src="/img/make/02.png" alt=""></div>
+					<div class="make__text">Изделия, которых нет в продаже</div>
+				</div>
+				<div class="make__column">
+					<div class="make__img"><img src="/img/make/03.png" alt=""></div>
+					<div class="make__text">Изделия, выпускаемые малым тиражом</div>
+				</div>
+				<div class="make__column">
+					<div class="make__img"><img src="/img/make/04.png" alt=""></div>
+					<div class="make__text">Детали механизмов, продающихся только в сборе</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tehnology">
+		<div class="conteiner">
+			<div class="tehnology__title title">Наши технологии</div>
+			<div class="tehnology__row">
+				<div class="tehnology__column">
+					<div class="tehnology__tit">FDM</div>
+					<div class="tehnology__text">Метод послойного наплавления материала, повторяющего контуры 3D-Модели
+					</div>
+				</div>
+				<div class="tehnology__column">
+					<div class="tehnology__tit">DLP</div>
+					<div class="tehnology__text">Метод, в котором жидкие смолы отвердевают под воздействием света</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="size">
+		<div class="conteiner">
+			<div class="size__title title">Максимальный размер цельной детали:</div>
+			<div class="size__size">
+				<div class="size__body">
+					<div class="size__tit">350 х 400 х 400 мм</div>
+					<div class="size__text">(ДхШхВ) </div>
+				</div>
+			</div>
+			<div class="size__footer">
+				<div class="size__note">Деталь может быть и большего размера, однако собираться она будет из нескольких
+					частей</div>
+			</div>
+		</div>
+	</div>
+	<div class="material">
+		<div class="conteiner">
+			<div class="material__title title">Используемые материалы:</div>
+			<div class="material__slider">
+				<div class="material__column">
+					<div class="material__text">Dissipative</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">Nylon Super</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">Cast</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">FormaX</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">HIPS</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">PVA</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">Flex</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">Aerotex</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">PLA Ium</div>
+				</div>
+				<div class="material__column">
+					<div class="material__text">PLA wood</div>
+				</div>
+			</div>
+			<div class="material__body">
+				ForMAX- инженерный термопластик на основе ABS с добавлением углеволокон, способный выдерживать большие
+				нагрузки, при печати практически нет усадки и выдерживает высокие температуры.
+			</div>
+		</div>
+	</div>
+	<div class="feedbacktwo">
+		<div class="conteiner">
+			<div class="feedbacktwo__title title">Остались вопросы? </div>
+			<div class="feedbacktwo__subtitle">Перезвоним в ближайшее время</div>
+			<form class="feedback__form" action="#">
+				<div class="feedback__row">
+					<div class="feedback__name"><input class="feedback__name-form input" placeholder="Имя" type="text"
+							name="name" id=""></div>
+					<div class="feedback__phone"><input class="feedback__phone-form input" placeholder="Телефон" type="tel"
+							name="phone" id=""></div>
+					<div class="feedback__btn"><button class="feedback__btn-form btn" type="submit">Отправить</button></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="contacts">
+		<div class="conteiner">
+			<div class="contacts__title title">Контакты</div>
+			<div class="contacts__row">
+				<div class="contacts__column">
+					<div class="contacts__phone">Контактный телефон:</div>
+					<div class="contacts__mail">Электронная почта:</div>
+					<div class="contacts__adress">Адрес:</div>
+				</div>
+				<div class="contacts__column">
+					<div class="contacts__phone">
+						<a class="contacts__tel" href="tel:+73471234557">8 347 123 45 57</a>
+					</div>
+					<div class="contacts__mail">
+						<a class="contacts__email" href="mailto:example@domain.com">example@domain.com</a>
+					</div>
+					<div class="contacts__adressmap">г. Уфа, Интернациональная, 123</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacts__map"><iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2299.5068661395458!2d56.10308440905056!3d54.8062095215473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d947fe052c7f47%3A0x6145d33ea7e95f66!2z0JjQvdGC0LXRgNC90LDRhtC40L7QvdCw0LvRjNC90LDRjyDRg9C7LiwgMTIzLCDQo9GE0LAsINCg0LXRgdC_LiDQkdCw0YjQutC-0YDRgtC-0YHRgtCw0L0sIDQ1MDA2MQ!5e0!3m2!1sru!2sru!4v1605000961744!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+	</div>
+	<div class="footer">
+		<div class="footer__row">
+			<div class="footer__body">
+				<div class="footer__text"><a class="footer__link" href="#">3D-Печать</a></div>
+				<div class="footer__text"><a class="footer__link" href="#">3D-Сканирование</a></div>
+				<div class="footer__text"><a class="footer__link" href="#">О компании</a></div>
+				<div class="footer__text"><a class="footer__link" href="#">Блог</a></div>
+			</div>
+			<div class="footer__body">
+				<div class="footer__title">Свяжитесь с нами</div>
+				<div class="footer__txt">Так, как удобно вам</div>
+				<div class="footer__adress">
+					<div class="footer__subtxt">Студия 3Д-Печати “ПОЛИГОН”</div>
+					<div class="footer__subtxt">г. Уфа, Интернациональная, 123</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__columns">
+			<div class="footer__copyright">copyright</div>
+			<div class="footer__imgrow">
+				<div class="footer__icon"><a href="tel:+73471234557"><img src="/img/footer/01.png" alt=""></a></div>
+				<div class="footer__icon"><a href="mailto:example@domain.com"><img src="/img/footer/02.png" alt=""></a>
+				</div>
+				<div class="footer__icon"><a href="#"><img src="/img/footer/03.png" alt=""></a></div>
+				<div class="footer__icon"><a href="#"><img src="/img/footer/04.png" alt=""></a></div>
+				<div class="footer__icon"><a href="#"><img src="/img/footer/05.png" alt=""></a></div>
+				<div class="footer__icon"><a href="#"><img src="/img/footer/06.png" alt=""></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

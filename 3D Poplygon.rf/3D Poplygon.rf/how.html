@@ -1,0 +1,132 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Poligon</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/how.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="price">
+	<div class="conteiner">
+		<div class="price__title title">Стоимость печати</div>
+		<div class="price__text">
+			<p>Стоимость печати невозможно оценить в граммах пластика или по размеру детали.</p>
+			<p>Воспользуйтесь калькулятором для того чтобы получить представление о формировании стоимости печати
+				детали.</p>
+		</div>
+		<div class="price-calc__calc">
+			<div class="price-calc__btn">Открыть Калькулятор</div>
+			<div class="price-calc__column">
+				<div class="price-calc__exit"></div>
+				<div class="price__columnrow">
+					<div class="price__modelimg"><img src="/img/price/01.png" alt="#"></div>
+					<div class="price__model">
+						<div class="model__title">Модель для расчета</div>
+						<select class="price__select">
+							<option>Бэтмен</option>
+							<option>Пункт 2</option>
+						</select>
+					</div>
+				</div>
+				<div class="price__columnrow">
+					<div class="price__modelimg"><img src="/img/price/02.png" alt="#"></div>
+					<div class="price__model">
+						<div class="model__title">Материал детали</div>
+						<select class="price__select">
+							<option>ABS</option>
+							<option>NYLON</option>
+						</select>
+					</div>
+				</div>
+				<div class="price__columnrow">
+					<div class="price__modelimg"><img src="/img/price/03.png" alt="#"></div>
+					<div class="price__model">
+						<div class="model__title">Толщина слоя печати
+							<div class="price__range">0.2 mm</div>
+						</div>
+						<input type="range" min="100" max="200" step="2">
+					</div>
+				</div>
+				<div class="price__columnrow">
+					<div class="price__modelimg"><img src="/img/price/04.png" alt="#"></div>
+					<div class="price__model">
+						<div class="model__title">Размер объекта</div>
+						<input type="range" min="100" max="200" step="2">
+					</div>
+				</div>
+				<div class="price__btn">Расчитать</div>
+				<div class="price__price">
+					<div class="price__cost">Стоимость
+						<output class="price__result" name="result">0</output>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="price__row">
+			<div class="price__option">
+				<div class="price__column">
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/01.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Модель для расчета</div>
+							<select class="price__select">
+								<option>Бэтмен</option>
+								<option>Пункт 2</option>
+							</select>
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/02.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Материал детали</div>
+							<span class="price__span">ABS</span>
+							<div class="price__switch-btn price__switch-on">
+								<span class="price__span">NYLON</span>
+								<input type="checkbox" name="namecheckbox">
+							</div>
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/03.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Толщина слоя печати
+								<div class="price__range">0.2 mm</div>
+							</div>
+							<input type="range" min="100" max="200" step="2">
+						</div>
+					</div>
+					<div class="price__columnrow">
+						<div class="price__modelimg"><img src="/img/price/04.png" alt="#"></div>
+						<div class="price__model">
+							<div class="model__title">Размер объекта</div>
+							<input type="range" min="100" max="200" step="2">
+						</div>
+					</div>
+					<div class="price__btn">Расчитать</div>
+					<div class="price__price">
+						<div class="price__cost">Стоимость
+							<output class="price__result" name="result">0</output>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price__img"><img src="/img/price/05.png" alt="#"></div>
+		</div>
+	</div>
+	</div>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
